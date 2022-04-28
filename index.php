@@ -17,9 +17,22 @@
     
     <!----------Navigation Bar---------->
 
-<?php
-    include 'header.php';
-?>
+    <section class="header">
+        <nav>
+            <a href="index.php"><img src="images/Kaye-ATM1.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Menu.php">Menu</a></li>
+                    <li><a href="">Order</a></li>
+                    <li><a href="">Location</a></li>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="https://www.facebook.com/bakingatm/"><i class="fa-brands fa-facebook"></a></i></li>
+                    <li><a href="https://www.instagram.com/kayebakes/"><i class="fa-brands fa-instagram"></a></i></li>
+                    <li><a href="https://www.messenger.com/t/103128751442746"><i class="fa-brands fa-facebook-messenger"></a></i></li>
+                </ul>
+            </div>
+        </nav>
 
     <!----------Background Video---------->
 
@@ -132,9 +145,35 @@
 
     <!---------- Footer ---------->
 
-    <?php
-    include 'footer.php';
-    ?>
+    <section>
+        <footer>
+            <div class="wrapper">
+                <ul>
+                    <li><a href=":)">Home</a></li>
+                    <li><a href=":)">Shop All</a></li>
+                    <li><a href=":)">Our Story</a></li>
+                    <li><a href=":)">Our Craft</a></li>
+                    <li><a href=":)">Contact</a></li>
+                </ul>
+                <div class="wrapper">
+                    <ul>
+                        <li><a href=":)">FAQ</a></li>
+				        <li><a href=":)">Shipping & Return</a></li>
+				        <li><a href=":)">Store Policy</a></li>
+				        <li><a href=":)">Payment Methods</a></li>
+				        <li><a href=":)">Privacy Policy</a></li>
+                    </ul>
+                    <div class="zen1">
+                        <h4>Join Us!</h4>
+                        <form action=":)">
+                            <input type="Email" placeholder="Enter Your Email" required>
+                            <div class="btn">
+                                <input type="Submit" value="Subscribe">
+                            </div>
+                        </form>
+            </div>
+        </footer>
+    </section>
 
 </body>
 </html>
